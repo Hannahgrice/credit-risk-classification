@@ -2,12 +2,11 @@ Analysis Purpose:
 The goal of this analysis is to determine if a Logistic Regression model is suitable for assessing borrowers' creditworthiness. The data considered includes loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debts.
 
 Results:
+  Accuracy:
 
-Accuracy:
-
-Score: 0.99
-Description: The model accurately classifies 99% of instances across both loan types.
-Precision:
+  Score: 0.99
+  Description: The model accurately classifies 99% of instances across both loan types.
+  Precision:
 
 Class 0 (Healthy Loan): 0.99 - The model correctly predicts a healthy loan 99% of the time.
 Class 1 (High-Risk Loan): 0.91 - The model correctly predicts a high-risk loan 91% of the time.
